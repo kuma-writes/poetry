@@ -8,7 +8,7 @@ description: Collecting the poetic writings of your humble bear
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ BASE_PATH }}poetry/{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
