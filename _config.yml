@@ -17,7 +17,7 @@ author :
 #  feedburner : nil
 
 # NOTE: Replacing this next line with your own URL
-production_url : https://kuma-writes/poetry
+production_url : https://kuma-writes.github.io/poetry
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
