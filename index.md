@@ -5,6 +5,12 @@ title: Kuma's Haiku and Other Poetry
 description: Collecting the poetic writings of your humble bear
 ---
 
-Text to be added later.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="/{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 
